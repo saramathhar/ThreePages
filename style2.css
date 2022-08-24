@@ -1,16 +1,20 @@
-.container { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column;
+
+	
+	.container { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column;
     align-items: center;
    margin-top: 5px;}
 
    form { margin-top: 5px;}
-/*control the width (align)*/
 button { width:180px; padding:15px;
   background-color: rgb(55, 0, 255); 
+  color: white;
   border:0px; border-radius:30px; }
 
 a {text-decoration: none;}
-  .symbol {object-position: top left ;}
+  .symbol {position:relative;
+  right: 150px;}
 
-  .button1 a:visited { color: #fefefe;}
-.button1 a:link { color: rgb(255, 255, 255);}
+  
+
+
 
